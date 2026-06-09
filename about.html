@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | Harith Haikal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo">HH<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+
+  <section class="page-hero">
+    <div class="section-label">// Who Am I</div>
+    <h1 class="page-title">About <span class="accent">Me</span></h1>
+  </section>
+
+  <section class="about-section">
+
+    <!-- Profile -->
+    <div class="about-grid">
+      <div class="avatar-wrap">
+        <img src="images/profile.jpeg" alt="Harith Haikal" class="avatar-img"/>
+        <div class="avatar-ring"></div>
+      </div>
+      <div class="about-text">
+        <h2>Harith Haikal Bin Mohd Khairi</h2>
+        <p class="about-role">📍 Pekan, Pahang &nbsp;·&nbsp; UniSZA FIK &nbsp;·&nbsp; CGPA 3.10</p>
+        <p>I'm a Computer Network Security student at Universiti Sultan Zainal Abidin. My passion lies in cybersecurity, IoT hardware, and building real-world tech projects that solve everyday problems.</p>
+        <p>I can handle pressure, manage time effectively, and thrive as a team player. My goal is to secure a career where I can apply what I've learned and continue growing as a tech professional.</p>
+        <div class="section-label" style="margin-top:1.5rem;">// Languages</div>
+        <div class="skill-tags" style="margin-top:0.75rem;">
+          <span>Malay (Native)</span>
+          <span>English (Proficient)</span>
+          <span>Arabic (Basic)</span>
+        </div>
+        <div class="section-label" style="margin-top:1.5rem;">// Strengths</div>
+        <div class="skill-tags" style="margin-top:0.75rem;">
+          <span>Integrity</span>
+          <span>Fast Learner</span>
+          <span>Positive Attitude</span>
+          <span>Emotional Intelligence</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Technical Skills -->
+    <div class="skills-grid-section">
+      <div class="section-label">// Technical Skills</div>
+      <h2 class="section-title">What I Work With</h2>
+      <div class="skills-grid">
+        <div class="skill-box">
+          <h4>Coding</h4>
+          <p>Java, Python, SQL, Problem Solving & Logic, VS Code, Jupyter Notebook</p>
+        </div>
+        <div class="skill-box">
+          <h4>Security & Networking</h4>
+          <p>NMAP, Burp Suite, Kali Linux, Wireshark, FTK, Autopsy, Digital Forensics</p>
+        </div>
+        <div class="skill-box">
+          <h4>Productivity</h4>
+          <p>Microsoft Office (Word, PowerPoint, Excel), Google Workspace (Docs, Sheets, Drive)</p>
+        </div>
+        <div class="skill-box">
+          <h4>Media & Design</h4>
+          <p>Canva, CapCut, iSpring — for creating visual content and presentations</p>
+        </div>
+        <div class="skill-box">
+          <h4>Networking</h4>
+          <p>Cisco Networking Academy (2025) — IP, Routing, Switching, Network Config & Troubleshooting</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects-section">
+      <div class="section-label">// Projects</div>
+      <h2 class="section-title">Things I've Built</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h4>Banking System</h4>
+          <p>Developed a full banking system with UI interface and database integration. Handles accounts, transactions, and basic banking operations.</p>
+        </div>
+        <div class="project-card">
+          <h4>Android Spam Filter App</h4>
+          <p>Built an Android app using basic data analysis and machine learning concepts to classify and filter spam messages automatically.</p>
+        </div>
+        <div class="project-card">
+          <h4>IoT Smart Gym Counter</h4>
+          <p>Used sensors and hardware components for real-time workout repetition tracking, integrated with the Blynk app for live monitoring.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Work Experience -->
+    <div class="experience-section">
+      <div class="section-label">// Work Experience</div>
+      <h2 class="section-title">Where I've Worked</h2>
+      <div class="exp-items">
+        <div class="exp-card">
+          <div class="exp-header">
+            <span class="exp-title">Restaurant Assistant</span>
+            <span class="exp-period">May – Aug 2021</span>
+          </div>
+          <div class="exp-company">Kedai Merah Coffee Shop</div>
+          <p class="exp-desc">Handled customer orders, prepared drinks, served food and beverages, and gained experience preparing roti canai. Improved multitasking, time management, and fast-paced work skills.</p>
+        </div>
+        <div class="exp-card">
+          <div class="exp-header">
+            <span class="exp-title">Staff Shop</span>
+            <span class="exp-period">July – Sep 2022</span>
+          </div>
+          <div class="exp-company">Hostaf Mart</div>
+          <p class="exp-desc">Prepared waffles, managed stock, arranged items, and handled cashier duties. Also managed daily cash transactions and transfers.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Education Timeline -->
+    <div class="timeline">
+      <div class="section-label">// Education</div>
+      <h2 class="section-title">Academic Journey</h2>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="tl-year">2023 – Present</div>
+          <div class="tl-content">
+            <h3>Bachelor of Computer Science (Computer Network Security) With Honours</h3>
+            <p>Universiti Sultan Zainal Abidin (UniSZA), FIK</p>
+            <span class="tl-badge">CGPA: 3.10</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-year">2021 – 2023</div>
+          <div class="tl-content">
+            <h3>Malaysian Higher School Certificate (STPM)</h3>
+            <p>SMK Dato' Mahmud Mat, Pahang</p>
+            <span class="tl-badge">PNGK: 2.59 · MUET: Band 3.0</span>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="tl-year">2016 – 2021</div>
+          <div class="tl-content">
+            <h3>Malaysian Certificate of Education (SPM)</h3>
+            <p>SMK Indera Shahbandar, Pahang</p>
+            <span class="tl-badge">1A 3B 2C</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extra Curriculum -->
+    <div class="awards-section">
+      <div class="section-label">// Extra Curriculum</div>
+      <h2 class="section-title">Activities & Involvement</h2>
+      <div class="awards-list">
+        <div class="award-item">
+          <span class="award-year">2019–21</span>
+          <span>President of Kadet Koreksional — Led the group, managed activities and organised events</span>
+        </div>
+        <div class="award-item">
+          <span class="award-year">2019–21</span>
+          <span>Secretary of English Language Club — Maintained meeting minutes, organised documents and handled tasks</span>
+        </div>
+        <div class="award-item">
+          <span class="award-year">2019–21</span>
+          <span>Hackathon High School Club — Learned Python coding, teamwork, and time management</span>
+        </div>
+        <div class="award-item">
+          <span class="award-year">2025</span>
+          <span>Cisco Networking Academy — Completed basic networking certification</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Awards -->
+    <div class="awards-section">
+      <div class="section-label">// Awards & Achievements</div>
+      <h2 class="section-title">Recognition</h2>
+      <div class="awards-list">
+        <div class="award-item">
+          <span class="award-year">2019</span>
+          <span>Pahang National Hackathon — Participant & Finalist</span>
+        </div>
+        <div class="award-item">
+          <span class="award-year">2019</span>
+          <span>Game Development Workshop — Completed intensive game dev training</span>
+        </div>
+        <div class="award-item">
+          <span class="award-year">2018</span>
+          <span>Karnival Literasi Falak — Participated in astronomy literacy carnival</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 <span>Harith Haikal Bin Mohd Khairi</span> · UniSZA FIK · Computer Network Security</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>

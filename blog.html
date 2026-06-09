@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog | Harith Haikal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-logo">HH<span class="dot">.</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="hamburger" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+
+  <section class="page-hero">
+    <div class="section-label">// My Thoughts</div>
+    <h1 class="page-title">The <span class="accent">Blog</span></h1>
+  </section>
+
+  <section class="blog-section">
+
+    <div class="blog-post">
+      <div class="post-meta">
+        <span class="post-tag">Cybersecurity</span>
+        <span class="post-date">May 10, 2025</span>
+      </div>
+      <h2>Why Every CS Student Should Learn Kali Linux</h2>
+      <p>When I first heard about Kali Linux, it sounded like something only hackers use. But after joining my Computer Network Security program at UniSZA, I realised it's one of the most powerful learning environments for any aspiring security professional.</p>
+      <p>Tools like NMAP let you scan networks and discover what devices are connected. Burp Suite helps you understand how web applications can be vulnerable. Wireshark lets you literally see internet traffic in real time. These aren't just hacker tools — they're how defenders think too.</p>
+      <p>My advice: start with a virtual machine, install Kali, and just explore. Don't be afraid to break things in a controlled environment. That's exactly how I learned, and it's made me appreciate network security on a completely different level.</p>
+      <div class="post-divider"></div>
+    </div>
+
+    <div class="blog-post">
+      <div class="post-meta">
+        <span class="post-tag">IoT & Hardware</span>
+        <span class="post-date">April 5, 2025</span>
+      </div>
+      <h2>Building a Smart Gym Rep Counter with IoT Sensors</h2>
+      <p>One of my favourite projects I've built was an IoT Smart Repetition Counter for the gym. The idea was simple: instead of counting reps manually, why not use sensors to do it automatically and track your workout data in real time?</p>
+      <p>We used motion sensors and hardware components to detect repetition movements, then integrated everything with the Blynk app so you could monitor your workout stats live from your phone. Seeing the sensor data update in real time was one of the coolest moments I've had as a student.</p>
+      <p>The biggest challenge was calibrating the sensor sensitivity so it didn't count noise as reps. After many iterations, we finally got it working reliably. This project taught me more about hardware integration and data handling than any textbook ever could.</p>
+      <div class="post-divider"></div>
+    </div>
+
+    <div class="blog-post">
+      <div class="post-meta">
+        <span class="post-tag">Student Life</span>
+        <span class="post-date">March 1, 2025</span>
+      </div>
+      <h2>From Hackathon Newbie to National Finalist</h2>
+      <p>Back in 2019, my school's Hackathon Club pushed me to join the Pahang National Hackathon. I had barely any coding experience at the time. I knew some basic Python from club meetings, but that was it.</p>
+      <p>The competition was intense. Teams had to build a working solution in limited hours. My team didn't win, but we learned more in those few hours than in months of regular school. Here's what stuck with me:</p>
+      <ol class="blog-list">
+        <li><strong>Start with the problem, not the tech.</strong> The teams who won focused on real problems first, then picked the right tools.</li>
+        <li><strong>Teamwork under pressure is a skill.</strong> Knowing when to lead, when to follow, and how to communicate fast — that's something you can only learn by doing.</li>
+        <li><strong>Done is better than perfect.</strong> A working prototype beats a perfect idea that's never finished.</li>
+      </ol>
+      <p>That experience pushed me towards Computer Science at UniSZA. I still believe hackathons are one of the best ways to grow as a developer.</p>
+      <div class="post-divider"></div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 <span>Harith Haikal Bin Mohd Khairi</span> · UniSZA FIK · Computer Network Security</p>
+  </footer>
+  <script src="js/main.js"></script>
+</body>
+</html>
