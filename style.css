@@ -64,8 +64,8 @@ a { color: inherit; text-decoration: none; }
 .about-section { padding: 4% 8%; }
 .about-grid { display: grid; grid-template-columns: auto 1fr; gap: 4rem; align-items: start; margin-bottom: 4rem; }
 .avatar-wrap { position: relative; display: inline-block; }
-.avatar-img { width: 160px; height: 160px; object-fit: cover; object-position: top center; border: 2px solid var(--pink); display: block; filter: grayscale(15%) contrast(1.05); }
-.avatar-ring { position: absolute; top: 8px; left: 8px; width: 160px; height: 160px; border: 1px solid var(--border-pink); pointer-events: none; }
+.avatar-img { width: 280px; height: 340px; object-fit: cover; object-position: top center; border: 2px solid var(--pink); display: block; filter: grayscale(15%) contrast(1.05); }
+.avatar-ring { position: absolute; top: 8px; left: 8px; width: 280px; height: 340px; border: 1px solid var(--border-pink); pointer-events: none; }
 .about-text h2 { font-family: var(--font-head); font-size: 1.6rem; font-weight: 800; margin-bottom: 0.25rem; }
 .about-role { font-size: 0.72rem; color: var(--pink); letter-spacing: 0.06em; margin-bottom: 1.2rem; }
 .about-text p { color: var(--muted); font-size: 0.82rem; margin-bottom: 0.9rem; }
